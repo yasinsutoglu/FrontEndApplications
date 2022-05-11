@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #085e7d;
+}
+
+.bg-dark {
+  background-color: #085e7d !important;
+}
+
+/*.card-img-top=> related to home page*/
+.card-img-top{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+/* #map=>related to contact page*/
+#map{
+    height: 450px;
+}
+
+@media (min-width:769px) {
+    .card-img-top{
+        height: 32vh;
+    }
+    
+    #map{
+        height: 100%;
+    }
+}

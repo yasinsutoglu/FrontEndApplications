@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+
+/*header*/
+header{
+    
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 20vh;    
+}
+
+header .head-content{
+    font-size: 1.5rem;
+    color:brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .image{
+    padding:.5rem;
+    margin-right:1rem;
+    width: 20rem;
+}
+
+header .image img{
+    width:100%;
+    height: 100%;
+}
+
+/* main */
+main{
+    
+    margin-top: 1rem;
+    margin-left:30rem;
+    margin-right: 2rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+main .image-cards{
+    grid-column: 1/span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+main .image-cards .poems{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,15rem);
+    margin:1rem;
+    gap:.5rem;
+    margin-bottom: 5rem;
+}
+
+ .card{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:beige;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+   }
+
+.poem-1{
+    background-image: url('https://picsum.photos/200/300?random=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poem-2{
+    background-image: url('https://picsum.photos/200/300?random=3');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poem-3{
+    background-image: url('https://picsum.photos/200/300?random=4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poem-4{
+    background-image: url('https://picsum.photos/200/300?random=5');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poem-5{
+    background-image: url('https://picsum.photos/200/300?random=6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poem-6{
+    background-image: url('https://picsum.photos/200/300?random=7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poem-7{
+    background-image: url('https://picsum.photos/200/300?random=8');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poem-8{
+    background-image: url('https://picsum.photos/200/300?random=9');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .image-cards .poets{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,15rem);
+    gap:.5rem;
+}
+
+.poet-1{
+    background-image: url('https://picsum.photos/200/300?random=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poet-2{
+    background-image: url('https://picsum.photos/200/300?random=3');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poet-3{
+    background-image: url('https://picsum.photos/200/300?random=4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poet-4{
+    background-image: url('https://picsum.photos/200/300?random=5');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poet-5{
+    background-image: url('https://picsum.photos/200/300?random=6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poet-6{
+    background-image: url('https://picsum.photos/200/300?random=7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poet-7{
+    background-image: url('https://picsum.photos/200/300?random=8');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.poet-8{
+    background-image: url('https://picsum.photos/200/300?random=9');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+aside{
+    height: 30%;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows:3rem 1fr 2rem;
+}
+
+aside h1{
+    text-align: center;
+    padding: 2px;
+    margin:.5rem 0;
+}
+
+aside .side-blog{
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+.side-links ul{
+    list-style: none;
+}
+
+.side-links ul li{margin: 3px;}
+.side-links ul a{
+    font-size: 1.5rem;
+    color:red;
+    text-decoration:none;
+}
+.side-links ul a:hover{
+    font-size: 1.2rem;
+    background-color: wheat;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ footer ul li{
+     padding:.5rem;
+ }

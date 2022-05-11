@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--fontawesome hütüphanesi eklemek için bu linki yazdık-->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  /> -->
+
+    <!-- GOOGLEFONTS'tan KOPYALADIK-->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Roboto:wght@400;700&family=Smokum&display=swap" rel="stylesheet"> -->
+
+    <!-- <link rel="stylesheet" href="buttons.css"> -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body id="body">
+
+    <header class="main-header">
+      <div id="main-nav" class="container ">
+        <a href="#" class="main-header__logo">MovieApp</a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="#">Filmler</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Diziler</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-secondary" href="#">Login</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#body" onclick="displayMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+     </div>
+    </header>
+
+    <main>
+      <section id="showcase">
+        <div class="content">
+          <h2>Welcome</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+        </div>
+      </section>
+
+      <section id="how-it-works">
+        <div class="container">
+          <div class="row">
+          <h2>How it works?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            iure laboriosam, unde maxime labore sed.
+          </p>
+        </div>
+      </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="icon-box col-3">
+              <i class="fa-solid fa-right-to-bracket fa-3x"></i>
+              <h3>Register</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis consequatur molestiae dignissimos veniam harum
+                fugiat.
+              </p>
+            </div>
+            <div class="icon-box col-3">
+              <i class="fa-brands fa-buffer fa-3x"></i>
+              <h3>Choose a Plan</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis consequatur molestiae dignissimos veniam harum
+                fugiat.
+              </p>
+            </div>
+            <div class="icon-box col-3">
+              <i class="fa-regular fa-face-smile fa-3x"></i>
+              <h3>Enjoy Movies</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis consequatur molestiae dignissimos veniam harum
+                fugiat.
+              </p>
+            </div>
+          </div>
+      </div>
+      </section>
+
+      <section id="features">
+        <div class="row">
+          <div class="col-2 features__left">
+
+          </div>
+          <div class="col-2 features__right">
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem molestiae recusandae quo totam vero quidem aut saepe cum reprehenderit. Sapiente sequi sint ad eaque nam et enim voluptas praesentium.</p>
+            <a class="btn btn-outline-secondary" href="#">features</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="plans">
+        <h2 class="section-title">Become Premium Member</h2> 
+        <div class="container  clearfix">
+        <div class="row">            
+              <div class="col-3 plan">
+                  <div class="inner-plan">
+                    <h2>Free</h2>
+                    <h3>0$ month</h3>
+                    <ul class="plan__features">
+                      <li>Lorem, ipsum.</li>
+                      <li>Lorem, ipsum.</li>
+                      <li>Lorem, ipsum</li>
+                      <li>Lorem, ipsum</li>
+                      <li>Lorem, ipsum</li>
+                      <li>Lorem, ipsum</li>
+                    </ul>                                   
+                   <div>
+                    <button class="btn btn-primary">Choose a plan</button>
+                    </div>
+                 </div>   
+                </div>
+                <div class="col-3 plan plan--featured">
+                  <div class="inner-plan recommended_plan">
+                    <h2 class="plan__badge">Recommended</h2>
+                  <h2>Basic</h2>
+                  <h3>9.99$ month</h3>
+                  <ul class="plan__features">
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                  </ul>
+                  <div>
+                    <button class="btn btn-primary">Choose a plan</button>
+                  </div>
+                </div>
+                </div>
+                <div class="col-3 plan">
+                  <div class="inner-plan">
+                  <h2>Premium</h2>
+                  <h3>19.99$ month</h3>
+                  <ul class="plan__features">
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                    <li>Lorem, ipsum</li>
+                  </ul>
+                  <div>
+                    <button class="btn btn-primary">Choose a plan</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="counters">
+        <div class="row counter">
+          <div class="col-3">
+            <span class="counter__item">974</span>
+            <h4>Movies</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">456</span>
+            <h4>TV Shows</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">976</span>
+            <h4>Users</h4>
+          </div>
+        </div>
+      </section>
+
+      <section id="movies">
+        <h2 class="section-title">Latest Movies & TV Shows</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img  class="card-image img-fluid" src="poster-1.jpeg" alt="">
+                <div class="card-body">
+                  <h2>Star Wars</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aut, nostrum odit dolor temporibus nemo?</p>
+                  <p>
+                    <button class="btn btn-primary">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img  class="card-image img-fluid" src="poster-2.jpeg" alt="">
+                <div class="card-body">
+                  <h2>Star Wars</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime officiis dolorem illum quam ex.</p>
+                  <p>
+                    <button class="btn btn-primary">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img  class="card-image img-fluid" src="poster-3.jpeg" alt="">
+                <div class="card-body">
+                  <h2>Star Wars</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus saepe quas voluptatibus suscipit sapiente ex!</p>
+                  <p>
+                    <button class="btn btn-primary">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+             <ul class="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          </div>
+         <div class="col-2">
+           <ul class="social-links">
+             <li><a href="" class="fab fa-facebook"></a></li>
+             <li><a href="" class="fab fa-twitter"></a></li>
+             <li><a href="" class="fab fa-instagram"></a></li>
+           </ul>
+         </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#body" id="backtotop">
+      <i class="fas fa-chevron-circle-up">    
+      </i>
+    </a>
+
+    <script>
+      function displayMenu(){
+        var link=document.getElementById("main-nav")
+        link.classList.toggle("responsive")
+      }
+    </script>
+  </body>
+</html>
